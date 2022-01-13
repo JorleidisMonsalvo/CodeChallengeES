@@ -1,0 +1,19 @@
+{
+  "name": "skiingchallenge",
+  "version": "1.0.0",
+  "description": "Find the longest way down a mountain for a skier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorleidisMonsalvo/CodeChallengeES.git"
+  },
+  "author": "Jorleidis Monsalvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorleidisMonsalvo/CodeChallengeES/issues"
+  },
+  "homepage": "https://github.com/JorleidisMonsalvo/CodeChallengeES#readme"
+}
