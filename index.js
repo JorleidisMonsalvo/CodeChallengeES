@@ -7,7 +7,7 @@ let matrix;
 
 //Read the file
 try {
-  const data = fs.readFileSync("./4x4.txt", "utf8");
+  const data = fs.readFileSync("./map.txt", "utf8");
   lines = data.split("\n");
 } catch (err) {
   console.error(err);
@@ -98,8 +98,12 @@ const DIRECTIONS = [
           }
       }
       //Add the steepest of the path to the res variable
-      res = res.concat(res[0]-res[1][res[0]-1]);
-      console.log(res)
+      res = res.concat(res[1][res[0]-1]-res[1][0]);
+      console.log("Length of calculated path: " + res[0]);
+      console.log("Drop of calculated path: " + res[2])
+      console.log("Calculate path: " + res[1].reverse());
+
+      return res;
   }
   
   longestDecreasingPath(matrix)
