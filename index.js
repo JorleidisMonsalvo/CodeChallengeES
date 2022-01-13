@@ -101,7 +101,7 @@ const DIRECTIONS = [
       res = res.concat(res[1][res[0]-1]-res[1][0]);
       console.log("Length of calculated path: " + res[0]);
       console.log("Drop of calculated path: " + res[2])
-      console.log("Calculate path: " + res[1].reverse());
+      console.log("Calculated path: " + res[1]);
 
       return res;
   }
